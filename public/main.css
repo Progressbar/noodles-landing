@@ -84,6 +84,12 @@ figure img {
   width: 80%;
 }
 
+@media (max-width: 575.98px) {
+  figure img {
+    width: 100%;
+  }
+}
+
 form {
   margin-top: 30px;
 }
@@ -118,6 +124,12 @@ footer p {
   padding: 120px 0;
 }
 
+@media (max-width: 575.98px) {
+  .container--spaced {
+    padding: 100px 0;
+  }
+}
+
 .mail-input {
   width: 100%;
   display: flex;
@@ -149,6 +161,13 @@ footer p {
   font-size: 0.9rem;
   padding: 15px 30px;
   cursor: pointer;
+}
+
+@media (max-width: 575.98px) {
+  .mail-input__button {
+    padding: 15px 20px;
+    font-size: 0.8rem;
+  }
 }
 
 .mail-input__button:focus {
