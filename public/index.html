@@ -16,15 +16,15 @@
     <header class="container-fluid container--gray header">
         <div class="container">
             <div class="row align-items-center justify-content-between">
-                <div class="col-12 d-flex align-items-center justify-content-between">
+                <div class="col-md-4">
                     <img class="logo" src="./assets/Logo_color.svg" alt="">
-                    <nav class="justify-content-end">
-                        <a href="#program">o programe</a>
-                        <a href="#program">pre firmy</a>
-                        <a href="#program">pre mentorov</a>
-                        <a href="#program">kontakt</a>
-                    </nav>
                 </div>
+                <nav class="col-md-8 d-flex justify-content-end">
+                    <a href="#program">o programe</a>
+                    <a href="#program">pre firmy</a>
+                    <a href="#program">pre mentorov</a>
+                    <a href="#program">kontakt</a>
+                </nav>
             </div>
         </div>
     </header>
@@ -38,8 +38,12 @@
                         sapiente, eius a odit id perferendis impedit molestias! Eius earum perspiciatis nesciunt et voluptatem
                         voluptates? Exercitationem?</p>
                     <h5>Animi voluptatibus quibusdam, aut iste atque, sapiente, eius.</h5>
+                    <div class="mail-input mt-5">
+                        <input placeholder="Tvoj email" type="text" class="mail-input__input">
+                        <button class="mail-input__button">Mám záujem</button>
+                    </div>
                 </div>
-                <div class="col-md">
+                <div class="col-md d-sm-none d-md-block">
                     <figure>
                         <img src="./assets/Illustration_1.svg" alt="">
                     </figure>
@@ -168,14 +172,14 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <form class="col-8">
-                    <div class="form-group">
+                <form class="col-8 d-flex flex-wrap justify-content-center">
+                    <div class="w-100 form-group">
                         <input class="form-input" type="text" placeholder="Váš email">
                     </div>
-                    <div class="form-group">
+                    <div class="w-100 form-group">
                         <input class="form-input" type="text" placeholder="Vaše meno alebo názov spoločnosti">
                     </div>
-                    <div class="form-group">
+                    <div class="w-100 §form-group">
                         <textarea class="form-textarea" name="" id="" cols="30" rows="10" placeholder="Vaša správa"></textarea>
                     </div>
                     <button class="form-button" type="submit">Odoslať</button>
