@@ -1,0 +1,19 @@
+{
+  "name": "noodles-landing",
+  "version": "1.0.0",
+  "description": "Landing page for noodles.digital",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Progressbar/noodles-landing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Progressbar/noodles-landing/issues"
+  },
+  "homepage": "https://github.com/Progressbar/noodles-landing#readme"
+}
