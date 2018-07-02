@@ -112,6 +112,10 @@ footer p {
   width: 40%;
 }
 
+.icon {
+  width: 10%;
+}
+
 .container--gray {
   background-color: var(--main-bg-color);
 }
