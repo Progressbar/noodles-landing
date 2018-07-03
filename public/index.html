@@ -19,11 +19,11 @@
                 <div class="col">
                     <img class="logo" src="./assets/Logo_color.svg" alt="">
                 </div>
-                <nav class="col d-none d-lg-flex justify-content-end ">
-                    <a href="#program">o programe</a>
-                    <a href="#program">pre firmy</a>
-                    <a href="#program">pre mentorov</a>
-                    <a href="#program">kontakt</a>
+                <nav class="col d-none d-lg-flex justify-content-end noodles-nav">
+                    <a data-scrollto="program">o programe</a>
+                    <a data-scrollto="partners">pre firmy</a>
+                    <a data-scrollto="mentors">pre mentorov</a>
+                    <a data-scrollto="contact">kontakt</a>
                 </nav>
             </div>
         </div>
@@ -51,7 +51,7 @@
             </div>
         </div>
     </section>
-    <section class="container-fluid container--spaced">
+    <section id="program" class="container-fluid container--spaced">
         <div class="container">
             <div class="row">
                 <figure class="col-md text-center feature">
@@ -115,7 +115,7 @@
     </section>
 
 
-    <section class="container-fluid container--spaced">
+    <section id="partners" class="container-fluid container--spaced">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md">
@@ -135,7 +135,7 @@
         </div>
     </section>
 
-    <section class="container-fluid container--spaced">
+    <section id="mentors" class="container-fluid container--spaced">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md">
@@ -155,7 +155,7 @@
         </div>
     </section>
 
-    <section class="container-fluid container--gray container--spaced">
+    <section id="contact" class="container-fluid container--gray container--spaced">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="text-center">
@@ -198,6 +198,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="./main.js"></script>
 </body>
 
 </html>
