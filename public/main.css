@@ -103,9 +103,13 @@ footer img {
   width: 50%;
 }
 
-@media (max-width: --breakpoint-md) {
-  footer img {
-    width: 80%!important;
+@media (max-width: 768px) {
+  footer img.footer-icon {
+    width: 30px;
+  }
+
+  footer img.footer-logo {
+    width: 80%;
   }
 }
 
@@ -113,8 +117,8 @@ footer img {
   width: 40%;
 }
 
-.icon {
-  width: 10%;
+.footer-icon {
+  width: 40px;
 }
 
 .container--gray {
