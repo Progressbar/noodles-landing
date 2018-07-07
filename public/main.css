@@ -80,6 +80,10 @@ nav a {
   font-weight: 600;
 }
 
+nav a:hover {
+  cursor: pointer;
+}
+
 figure img {
   width: 80%;
 }
@@ -101,19 +105,24 @@ footer {
 
 footer img {
   width: 50%;
-  margin: 80px 0;
 }
 
-footer p {
-  margin-bottom: 80px;
+@media (max-width: 768px) {
+  footer img.footer-icon {
+    width: 30px;
+  }
+
+  footer img.footer-logo {
+    width: 80%;
+  }
 }
 
 .feature img {
   width: 40%;
 }
 
-.icon {
-  width: 10%;
+.footer-icon {
+  width: 40px;
 }
 
 .container--gray {
@@ -203,10 +212,34 @@ footer p {
   border: none;
   outline: none;
   background-color: var(--main-blue-color);
-  color: white;
+  color: white!important;
   font-weight: 600;
   text-transform: uppercase;
   font-size: 0.9rem;
   padding: 15px 30px;
   cursor: pointer;
+}
+
+.footer-link {
+  color: var(--main-blue-color); 
+}
+
+.eyecatcher-wrapper {
+  position: relative;
+}
+
+.eyecatcher {
+  display: inline-block;
+  position: absolute;
+  width: 200px;
+  max-width: 200px;
+  min-width: 200px;
+  z-index: 1;
+  padding: 10px;
+  top: -50px;
+  right: 50px;
+}
+
+.eyecatcher img {
+  position: relative;
 }
