@@ -223,3 +223,23 @@ footer img {
 .footer-link {
   color: var(--main-blue-color); 
 }
+
+.eyecatcher-wrapper {
+  position: relative;
+}
+
+.eyecatcher {
+  display: inline-block;
+  position: absolute;
+  width: 200px;
+  max-width: 200px;
+  min-width: 200px;
+  z-index: 1;
+  padding: 10px;
+  top: -50px;
+  right: 50px;
+}
+
+.eyecatcher img {
+  position: relative;
+}
