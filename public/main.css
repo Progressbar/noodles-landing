@@ -80,6 +80,10 @@ nav a {
   font-weight: 600;
 }
 
+nav a:hover {
+  cursor: pointer;
+}
+
 figure img {
   width: 80%;
 }
