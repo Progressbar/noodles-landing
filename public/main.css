@@ -101,11 +101,12 @@ footer {
 
 footer img {
   width: 50%;
-  margin: 80px 0;
 }
 
-footer p {
-  margin-bottom: 80px;
+@media (max-width: --breakpoint-md) {
+  footer img {
+    width: 80%!important;
+  }
 }
 
 .feature img {
@@ -203,10 +204,14 @@ footer p {
   border: none;
   outline: none;
   background-color: var(--main-blue-color);
-  color: white;
+  color: white!important;
   font-weight: 600;
   text-transform: uppercase;
   font-size: 0.9rem;
   padding: 15px 30px;
   cursor: pointer;
+}
+
+.footer-link {
+  color: var(--main-blue-color); 
 }
