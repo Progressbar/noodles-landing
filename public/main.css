@@ -236,9 +236,8 @@ footer img {
   max-width: 200px;
   min-width: 200px;
   z-index: 1;
-  padding: 10px;
-  top: -50px;
-  right: 50px;
+  top: -170px;
+  right: 0px;
 }
 
 .eyecatcher img {
